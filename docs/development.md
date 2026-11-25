@@ -21,6 +21,8 @@ checksums as the repository's latest release when signing secrets are configured
 Without signing configuration, CI checks the source and a maintainer publishes
 locally signed assets. Release notes come from
 `docs/release-notes.md`; keep them brief and focused on user-visible changes.
+The workflow can also be run manually with an existing version tag using its
+`version` input. It always checks out that tag before building.
 
 Configure these repository secrets for automatic signing:
 
