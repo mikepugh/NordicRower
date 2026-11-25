@@ -1,0 +1,45 @@
+# Gradle and Kotlin
+.gradle/
+.kotlin/
+**/build/
+
+# Android Studio and local configuration
+.idea/
+*.iml
+local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Generated release artifacts
+*.apk
+*.aab
+*.zip
+output-metadata.json
+
+# Local keys and credentials
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Ignored dependencies and reference checkouts
+/vendor/
+/references/
+
+# Private diagnostics and local data
+/diagnostics/
+*diagnostics*.txt
+*.fit
+*.sqlite
+*.sqlite-*
+*.log
+*.hprof
+
+# Operating system files
+.DS_Store
+Thumbs.db
